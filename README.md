@@ -30,6 +30,10 @@ $ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main
 
 ```shell
 nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
+```
+
+```shell
+nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
 
                      __     _
    ____  __  _______/ /__  (_)
