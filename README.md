@@ -25,3 +25,25 @@ $ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main
 [INF] Templates loaded for scan: 1
 [INF] No results found. Better luck next time!
 ```
+
+> Using the template from this repository, this directory listing is now detected
+
+```shell
+nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   2.7.0
+
+                projectdiscovery.io
+
+[WRN] Use with caution. You are responsible for your actions.
+[WRN] Developers assume no liability and are not responsible for any misuse or damage.
+[INF] Using Nuclei Engine 2.7.0 (latest)
+[INF] Using Nuclei Templates 9.0.1 (latest)
+[INF] Templates added in last update: 23
+[INF] Templates loaded for scan: 1
+[2022-05-17 14:56:21] [dir-listing] [http] [info] https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html
+```
