@@ -1,7 +1,7 @@
 # Reproducing the Issue
 
 ```shell
-nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -id dir-listing
+$ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -id dir-listing
 ```
 
 > This doesn't yield any result currently.
@@ -29,11 +29,11 @@ $ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main
 > Using the template from this repository, this directory listing is now detected
 
 ```shell
-nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
+$ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
 ```
 
 ```shell
-nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
+$ nuclei -u https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/index.html -t https://raw.githubusercontent.com/V0idC0de/dir-listing-iis-test/main/dir-listing.yaml
 
                      __     _
    ____  __  _______/ /__  (_)
